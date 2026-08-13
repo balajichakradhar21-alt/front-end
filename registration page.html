@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Registration</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#ab907a}
+    .card{max-width:480px;margin:40px auto;padding:20px;background:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+    label{display:block;margin:8px 0 4px}
+    input[type=text],input[type=password]{width:100%;padding:8px;margin-bottom:10px;box-sizing:border-box}
+    .inline{display:inline-block;margin-right:12px}
+    button{padding:10px 14px;background:#007bff;color:#ffffff;border:0;border-radius:4px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Registration</h2>
+    <form action="#" method="post">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" required>
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+
+      <label>Hobbies</label>
+      <label class="inline"><input type="checkbox" name="hobby" value="tv"> TV</label>
+      <label class="inline"><input type="checkbox" name="hobby" value="reading"> Reading</label>
+
+      <label>Gender</label>
+      <label class="inline"><input type="radio" name="gender" value="male"> Male</label>
+      <label class="inline"><input type="radio" name="gender" value="female"> Female</label>
+
+      <div style="margin-top:16px">
+        <button type="submit">Register</button>
+        <button type="reset" style="margin-left:8px;background:#6c757d">Reset</button>
+      </div>
+    </form>
+    <p style="margin-top:12px">Already registered? <a href="LOGIN PAGE 1 .html">Login</a></p>
+  </div>
+</body>
+</html>
